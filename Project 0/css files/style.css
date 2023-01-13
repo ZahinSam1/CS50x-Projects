@@ -1,0 +1,106 @@
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  background: #232222;
+}
+
+.top {
+  position: absolute;
+  display: flex;
+  gap: 20px;
+  top: 0;
+  right: 0;
+  padding-right: 39px;
+  padding-top: 20px;
+
+  z-index: 100;
+}
+
+.top p {
+  color: white;
+}
+
+.middle {
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  position: absolute;
+  top: 0;
+  bottom: 100px;
+
+  gap: 10px;
+}
+
+.middle form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  gap: 20px;
+}
+
+.middle h1 {
+  font-size: 120px;
+  color: white;
+}
+
+.searchIcon{
+  position: absolute;
+  width: 25px;
+  height: 25px;
+
+  margin: 8px;
+}
+
+.searchInput {
+  height: 40px;
+  width: 500px;
+
+  border-radius: 30px;
+
+  padding-left: 35px;
+  padding-right: 20px;
+
+}
+
+.searchInput:hover{
+  background: rgb(190, 187, 187);
+}
+
+.searchInput:focus{
+  background: white;
+}
+
+
+.submitbuttons{
+
+  display: flex;
+  gap: 10px;
+  padding: 10px;
+
+}
+
+.searchButton {
+  border-radius: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+
+  background: #424040;
+  color: white;
+
+  border: none;
+}
+
+.searchButton:hover{
+
+  border: 1px solid white;
+
+}
+
